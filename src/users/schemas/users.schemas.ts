@@ -12,7 +12,7 @@ export class Users {
     email:string;
 
     @Prop()
-    phoneNumber:number;
+    phoneNumber?:number;
 
     @Prop({required:true})
     password:string;
